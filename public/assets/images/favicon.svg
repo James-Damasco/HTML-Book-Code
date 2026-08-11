@@ -1,0 +1,258 @@
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <title>HTML Basic Code Book Logo</title>
+  <desc>Open book with HTML coding symbols and the text HTML Basic Code Book</desc>
+
+  <!-- Background -->
+  <rect width="800" height="800" fill="#ffffff"/>
+
+  <!-- ========================= -->
+  <!-- CODE SYMBOL ABOVE BOOK -->
+  <!-- ========================= -->
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left accent -->
+    <path d="M280 175 L250 155" stroke="#172B3A" stroke-width="10"/>
+    <path d="M270 195 L235 195" stroke="#172B3A" stroke-width="10"/>
+
+    <!-- HTML opening bracket -->
+    <path d="M355 145 L315 180 L355 215"
+          stroke="#F26A21"
+          stroke-width="14"/>
+
+    <!-- Slash -->
+    <path d="M410 135 L385 225"
+          stroke="#F26A21"
+          stroke-width="14"/>
+
+    <!-- HTML closing bracket -->
+    <path d="M445 145 L485 180 L445 215"
+          stroke="#F26A21"
+          stroke-width="14"/>
+
+    <!-- Right accent -->
+    <path d="M520 175 L550 155" stroke="#172B3A" stroke-width="10"/>
+    <path d="M530 195 L565 195" stroke="#172B3A" stroke-width="10"/>
+  </g>
+
+  <!-- ========================= -->
+  <!-- BOOK SHADOW -->
+  <!-- ========================= -->
+
+  <ellipse
+    cx="400"
+    cy="530"
+    rx="300"
+    ry="28"
+    fill="#D9DEE2"
+    opacity="0.45"/>
+
+  <!-- ========================= -->
+  <!-- BOOK COVER -->
+  <!-- ========================= -->
+
+  <path
+    d="M125 275
+       Q125 255 148 255
+       L350 275
+       Q400 282 450 275
+       L652 255
+       Q675 255 675 275
+       L675 535
+       Q675 555 650 555
+       L450 535
+       Q400 528 350 535
+       L150 555
+       Q125 555 125 535 Z"
+    fill="#243B53"
+    stroke="#172B3A"
+    stroke-width="7"
+    stroke-linejoin="round"/>
+
+  <!-- ========================= -->
+  <!-- LEFT PAGE -->
+  <!-- ========================= -->
+
+  <path
+    d="M145 280
+       Q145 265 165 268
+       L350 286
+       Q382 290 400 315
+       L400 510
+       Q370 490 345 490
+       L155 510
+       Q145 510 145 495 Z"
+    fill="#FFF9EE"
+    stroke="#172B3A"
+    stroke-width="6"
+    stroke-linejoin="round"/>
+
+  <!-- ========================= -->
+  <!-- RIGHT PAGE -->
+  <!-- ========================= -->
+
+  <path
+    d="M655 280
+       Q655 265 635 268
+       L450 286
+       Q418 290 400 315
+       L400 510
+       Q430 490 455 490
+       L645 510
+       Q655 510 655 495 Z"
+    fill="#FFF9EE"
+    stroke="#172B3A"
+    stroke-width="6"
+    stroke-linejoin="round"/>
+
+  <!-- ========================= -->
+  <!-- BOOK PAGE LINES -->
+  <!-- ========================= -->
+
+  <g
+    fill="none"
+    stroke="#B9B9B9"
+    stroke-width="5"
+    stroke-linecap="round"
+    opacity="0.75">
+
+    <!-- Left page bottom -->
+    <path d="M165 478 Q270 458 365 485"/>
+    <path d="M165 490 Q270 470 350 493"/>
+
+    <!-- Right page bottom -->
+    <path d="M435 485 Q530 458 635 478"/>
+    <path d="M450 493 Q530 470 635 490"/>
+  </g>
+
+  <!-- ========================= -->
+  <!-- CENTER BOOK SPINE -->
+  <!-- ========================= -->
+
+  <path
+    d="M400 315 L400 510"
+    stroke="#172B3A"
+    stroke-width="7"/>
+
+  <!-- ========================= -->
+  <!-- HTML ICON ON LEFT PAGE -->
+  <!-- ========================= -->
+
+  <g
+    fill="none"
+    stroke="#172B3A"
+    stroke-width="14"
+    stroke-linecap="round"
+    stroke-linejoin="round">
+
+    <path d="M245 365 L205 405 L245 445"/>
+    <path d="M310 365 L350 405 L310 445"/>
+    <path d="M285 350 L270 460"/>
+  </g>
+
+  <!-- ========================= -->
+  <!-- CODE LINES ON RIGHT PAGE -->
+  <!-- ========================= -->
+
+  <g stroke-linecap="round">
+
+    <!-- Line 1 -->
+    <line x1="455" y1="345" x2="520" y2="345"
+          stroke="#E74C3C" stroke-width="10"/>
+    <line x1="535" y1="345" x2="595" y2="345"
+          stroke="#172B3A" stroke-width="10"/>
+
+    <!-- Line 2 -->
+    <line x1="455" y1="375" x2="490" y2="375"
+          stroke="#F26A21" stroke-width="10"/>
+    <line x1="505" y1="375" x2="570" y2="375"
+          stroke="#F2B134" stroke-width="10"/>
+    <line x1="585" y1="375" x2="610" y2="375"
+          stroke="#172B3A" stroke-width="10"/>
+
+    <!-- Line 3 -->
+    <line x1="455" y1="405" x2="535" y2="405"
+          stroke="#4C956C" stroke-width="10"/>
+    <line x1="550" y1="405" x2="590" y2="405"
+          stroke="#172B3A" stroke-width="10"/>
+
+    <!-- Line 4 -->
+    <line x1="455" y1="435" x2="520" y2="435"
+          stroke="#2679B9" stroke-width="10"/>
+    <line x1="535" y1="435" x2="600" y2="435"
+          stroke="#172B3A" stroke-width="10"/>
+  </g>
+
+  <!-- ========================= -->
+  <!-- BOOK BOTTOM DETAIL -->
+  <!-- ========================= -->
+
+  <path
+    d="M125 535
+       Q245 515 350 510
+       Q385 508 400 525
+       Q415 508 450 510
+       Q555 515 675 535"
+    fill="none"
+    stroke="#172B3A"
+    stroke-width="7"/>
+
+  <!-- ========================= -->
+  <!-- ORANGE BOOKMARK -->
+  <!-- ========================= -->
+
+  <path
+    d="M470 510
+       L515 510
+       L515 585
+       L492 568
+       L470 585 Z"
+    fill="#F26A21"
+    stroke="#172B3A"
+    stroke-width="5"
+    stroke-linejoin="round"/>
+
+  <!-- ========================= -->
+  <!-- TITLE -->
+  <!-- ========================= -->
+
+  <text
+    x="400"
+    y="635"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="64"
+    font-weight="700"
+    letter-spacing="2">
+
+    <tspan fill="#F26A21">HTML</tspan>
+    <tspan fill="#172B3A"> BASIC</tspan>
+  </text>
+
+  <text
+    x="400"
+    y="700"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="54"
+    font-weight="700"
+    letter-spacing="6"
+    fill="#172B3A">
+    CODE BOOK
+  </text>
+
+  <!-- ========================= -->
+  <!-- BOTTOM DIVIDER -->
+  <!-- ========================= -->
+
+  <g stroke="#172B3A" stroke-width="5" stroke-linecap="round">
+    <line x1="275" y1="735" x2="370" y2="735"/>
+    <line x1="430" y1="735" x2="525" y2="735"/>
+  </g>
+
+  <circle
+    cx="400"
+    cy="735"
+    r="6"
+    fill="#172B3A"/>
+
+</svg>
